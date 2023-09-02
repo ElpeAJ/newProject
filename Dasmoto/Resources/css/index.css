@@ -1,0 +1,42 @@
+.heading {
+    /*background-image: url(./Resources/images/pattern.jpeg);*/
+    width: 100vw;
+    height: 10vh;
+    float: left;
+}
+
+.cy {
+    font-family: Helvetica;
+    font-size: 100px;
+    font-weight: bold;
+    color: khaki;
+}
+
+span {
+    color: white;
+    font-weight: bold;
+    font-size: 32px;
+    font-family: Helvetica;
+}
+
+.cg {
+    background-color: mediumspringgreen;
+    
+}
+
+.cp {
+    background-color: lightcoral;
+}
+
+.cb {
+    background-color: skyblue;
+}
+
+img {
+    margin-top: 20px;
+}
+
+strong {
+    font-family: Helvetica;
+    color: blue;
+}
