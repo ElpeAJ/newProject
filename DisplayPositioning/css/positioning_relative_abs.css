@@ -1,0 +1,39 @@
+img {
+    height: 100px;
+    width: 100px;
+    margin-bottom: 10px;
+}
+
+.a {
+    position: relative;
+    top: 50px;
+    left: 100px;
+    
+}
+
+#a {
+    position: relative;
+    top: 50px;
+    left: 100px;
+    background-color: aqua;
+}
+
+#b {
+    background-color: brown;
+}
+
+#c {
+    height: 50px;
+    width: 100%;
+    background-color: blue;
+}
+
+#d {
+    background-color: bisque;
+    position: absolute;
+    top: 50px;
+}
+
+#e {
+    background-color: chartreuse;
+}
