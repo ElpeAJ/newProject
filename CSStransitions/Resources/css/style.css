@@ -11,6 +11,7 @@ a {
     color: mintcream;
     transition-property: background-color;
     transition-duration: 2s; /* human blink is 400ms */
+    flex-direction: column;
 
   }
   

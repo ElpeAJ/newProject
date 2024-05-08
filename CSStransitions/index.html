@@ -1,11 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>Animation Duration</title>
-  <link rel="stylesheet" href="Resources/css/style.css">
-</head>
-<body>
-  <a href="#">Join Now!</a>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Animation Duration</title>
+    <link rel="stylesheet" href="Resources/css/style.css" />
+  </head>
+  <body>
+    <div class="names">
+      <ul>
+        <li class="babe">ShadrachNii</li>
+        <li>ElpeArthur</li>
+        <li>Damian Nii</li>
+        <li>Ida Naa</li>
+      </ul>
+    </div>
+    <a href="#">Join Now!</a>
+
+    <script>
+      /*let name = "Evelyn";
+      alert(name);*/
+
+      function baby() {
+        let here = prompt("Nii is here, right?");
+        alert(here);
+      }
+
+      let list = document.querySelector(".babe");
+      list.addEventListener("click", baby);
+
+      function contactUs() {
+        let name = prompt("What is your name?");
+        let email = prompt("What is your email address?");
+
+        let all = document.querySelector("*");
+        all.innerHTML =
+          "<h1 class='closing'>Thank you " + name + ", we'll be in touch!</h1>";
+      }
+
+      let contactButton = document.querySelector("a");
+      contactButton.addEventListener("click", contactUs);
+    </script>
+  </body>
 </html>
