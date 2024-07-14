@@ -1,0 +1,25 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+p {
+    margin: 0 auto;
+    min-width: 300px;
+    max-width: 600px;
+}
+
+.pull-quote {
+    width: 350px;
+    margin: 0 auto;
+  }
+
+#main {
+    width: 85vw;
+    margin: 0 auto;
+}
+
+.visible
+{
+    visibility: hidden;*/
+}
+
