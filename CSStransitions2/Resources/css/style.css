@@ -41,5 +41,5 @@ h1 {
 }
 
 .game .gazelle:hover {
-  max-height: 180px;
+  max-height: 50%;
 }
